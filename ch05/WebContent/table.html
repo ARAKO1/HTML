@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table-border</title>
+<style>
+table,td,th{
+border:1px solid blue;
+}
+table{border-collapse: /* seperate */collapse;/*테두리 하나로 합치기  */
+           color:white;
+           background-color:yellowgreen;
+           width:100%/* 부모요소만큼 크기  */
+           }  
+th{background:green;}
+td{text-align:center;}
+caption{color:black; caption-side:bottom; }
+</style>
+</head>
+<body>
+<table>
+<caption>VIP 고객리스트</caption>
+<tr>
+<th>이름</th><th>이메일</th>
+</tr>
+<tr>
+<td>홍길동</td><td>hond@daum.com</td>
+</tr>
+<tr>
+<td>이리</td><td>iri@navercom</td>
+</tr>
+</table>
+
+</body>
+</html>

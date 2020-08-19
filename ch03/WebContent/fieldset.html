@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>fieldset</title>
+</head>
+<body>
+<form>
+ <fieldset>
+ <legend>인적사항입력(필수사항)</legend><!-- 영역 타이틀 -->
+ 이름:<input type="text" name="name"><br>
+ 전화번호:<input type="text" name="tel"><br>
+ 주소:<input type="text" name="address">
+ </fieldset>
+ <fieldset>
+ <legend>추가사항</legend>
+ 취미:
+ <label for="reading">독서</label>
+ <input type ="checkbox" name:"hpbby" value="reading" id=reading>
+ <label for="cycle">자전거</label>
+ <input type ="checkbox" name:"hobby" value="cycle" id="cycle">
+ <label for="movie">영화감상</label>
+ <input type ="checkbox" name:"hpbby" value="movie" id="movie"><br>
+ 메세지 수신여부:
+ <input type ="checkbox" name="rec" value="mail">이메일
+ <input type ="checkbox" name="rec" value="sns">sns
+ <input type ="checkbox" name="rec" value="lms">문자
+ </fieldset>
+ <fieldset>
+ <legend>좋아하는 연예인</legend>
+ <label>이소룡<input type="checkbox" name="hero" value="이소룡"></label>
+ <label>홍금보<input type="checkbox" name="hero" value="홍금보"></label>
+ <label>로다쥬<input type="checkbox" name="hero" value="로다쥬"></label>
+ </fieldset>
+ <input type="submit" value="전송">
+ <input type="reset" value="취소">
+ </form>
+
+</body>
+</html>
